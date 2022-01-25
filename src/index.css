@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap'); */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Twinkle Star", sans-serif;
+  background-color: beige;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 768px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.InputArea {
+  display: flex;
+  justify-content: center;
+}
+
+.cityInput {
+  height: 1.5rem;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 6px;
+  border-width: 2px;
+  border-color: black;
+}
+
+.cityInputBtn {
+  background-color: burlywood;
+  padding: 3px;
+  height: 1.5rem;
+  border-width: 2px;
+  border-radius: 6px;
+}
+
+.cityInputBtn:hover {
+  background-color: darkgoldenrod;
+}
+
+.cardHeading {
+  padding: 2%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+  border-radius: 30px;
+  border-color: black;
+  background-color: wheat;
+}
+
+.description {
+  text-align: left;
+  padding: 2% 4% 3% 4%;
+}
